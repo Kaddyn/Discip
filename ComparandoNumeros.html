@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando JavaScript</title>
+</head>
+<body>
+    <script>
+        let numeroInserido = prompt("Digite um numero: ");
+            if(numeroInserido>0){
+                alert("O número inserido é NEGATIVO!!!");
+                while(numeroInserido>0){
+                    numeroInserido = prompt("Digite outro numero, sendo ele positivo: "); 
+                    if(numeroInserido>0){
+                         alert("O número inserido é NEGATIVO!!!")
+                    }
+                }
+            }else if(numeroInserido>=0){
+                if(numeroInserido%2==0 && numeroInserido!=0){
+                    alert("O número: " + numeroInserido + " é um número PAR.");
+                  }else if(numeroInserido%2==1){
+                     alert("O número: " + numeroInserido + " é um número IMPAR.")
+                  }else{numeroInserido==0}{
+                        alert("O número: "+ numeroInserido + "não é IMPAR e nem PAR.")
+                  }
+            }
+           
+    </script>
+</body>
+</html>
